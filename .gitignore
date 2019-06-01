@@ -1,3 +1,5 @@
 vendor/
 
 *_mock.go
+.env
+.idea

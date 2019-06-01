@@ -7,6 +7,6 @@ services:
       dockerfile: ./Dockerfile
     volumes:
       - .:/go/src/github.com/disiqueira/slackconcierge
-    environment:
-      SLACK_TOKEN: "xoxb-192960921860-J6wCZIeD5sl7H91Odp4gi4dE"
+    env_file:
+      - .env
       GO111MODULE: "on"
